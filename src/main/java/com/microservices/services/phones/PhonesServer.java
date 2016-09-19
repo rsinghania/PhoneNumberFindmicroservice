@@ -36,7 +36,7 @@ public class PhonesServer
   {
     // Tell server to look for accounts-server.properties or
     // accounts-server.yml
-    System.setProperty("spring.config.name", "accounts-server");
+    System.setProperty("spring.config.name", "phones-server");
 
     SpringApplication.run(PhonesServer.class, args);
   }
